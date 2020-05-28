@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5060885891,
+  "duration": 4918361655,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,47 +52,47 @@ formatter.match({
   "location": "infoPage_StepDef.infoPagesLinkDisplayInMainMenu()"
 });
 formatter.result({
-  "duration": 177966466,
+  "duration": 154293654,
   "status": "passed"
 });
 formatter.match({
   "location": "infoPage_StepDef.userDoMouseOverOnInfoPagesLinkInMainMenuOnHomepage()"
 });
 formatter.result({
-  "duration": 7347499,
+  "duration": 8126381,
   "status": "passed"
 });
 formatter.match({
   "location": "infoPage_StepDef.selectLinkAboutUs()"
 });
 formatter.result({
-  "duration": 4293984446,
+  "duration": 4226192787,
   "status": "passed"
 });
 formatter.match({
   "location": "infoPage_StepDef.navigateToTheAboutUsPage()"
 });
 formatter.result({
-  "duration": 32849224,
+  "duration": 33872202,
   "status": "passed"
 });
 formatter.match({
   "location": "infoPage_StepDef.selectPrivacyPolicyLink()"
 });
 formatter.result({
-  "duration": 1230008910,
+  "duration": 1079953488,
   "status": "passed"
 });
 formatter.match({
   "location": "infoPage_StepDef.navigateToThePrivacyPage()"
 });
 formatter.result({
-  "duration": 31032178,
+  "duration": 30126865,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 376755607,
+  "duration": 392562017,
   "status": "passed"
 });
 });

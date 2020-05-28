@@ -2,19 +2,15 @@ package regression;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.*;
-
-
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import regression.customerPortalPOM.InfoPage;
 
 public class infoPage_StepDef extends TestRunner {
-   // static WebDriver driver;
-        public InfoPage infoPage;
+
+    public InfoPage infoPage;
+
     @Before
     public void start() {
         infoPage = new InfoPage();
@@ -31,6 +27,7 @@ public class infoPage_StepDef extends TestRunner {
         }
 
     }
+
     @Given("^Info Pages link display in main menu$")
     public void infoPagesLinkDisplayInMainMenu() {
         infoPage.isInfoPagesLinkDisplay();
@@ -49,7 +46,7 @@ public class infoPage_StepDef extends TestRunner {
 
     @Then("^navigate to the About Us page$")
     public void navigateToTheAboutUsPage() {
-    infoPage.isAboutUsPage();
+        infoPage.isAboutUsPage();
 
     }
 
