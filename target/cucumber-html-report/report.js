@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("regression/info_Page.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("regression/info_News_ContactUs.feature");
 formatter.feature({
   "line": 1,
   "name": "InfoNewsContact",
@@ -7,14 +7,14 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4918361655,
+  "duration": 5894309200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Navigate pages from Info Pages",
+  "name": "Navigate Info Pages",
   "description": "",
-  "id": "infonewscontact;navigate-pages-from-info-pages",
+  "id": "infonewscontact;navigate-info-pages",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -49,50 +49,91 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "infoPage_StepDef.infoPagesLinkDisplayInMainMenu()"
+  "location": "Info_News_ContactUs_StepDef.infoPagesLinkDisplayInMainMenu()"
 });
 formatter.result({
-  "duration": 154293654,
+  "duration": 219431000,
   "status": "passed"
 });
 formatter.match({
-  "location": "infoPage_StepDef.userDoMouseOverOnInfoPagesLinkInMainMenuOnHomepage()"
+  "location": "Info_News_ContactUs_StepDef.userDoMouseOverOnInfoPagesLinkInMainMenuOnHomepage()"
 });
 formatter.result({
-  "duration": 8126381,
+  "duration": 4991400,
   "status": "passed"
 });
 formatter.match({
-  "location": "infoPage_StepDef.selectLinkAboutUs()"
+  "location": "Info_News_ContactUs_StepDef.selectLinkAboutUs()"
 });
 formatter.result({
-  "duration": 4226192787,
+  "duration": 4668340000,
   "status": "passed"
 });
 formatter.match({
-  "location": "infoPage_StepDef.navigateToTheAboutUsPage()"
+  "location": "Info_News_ContactUs_StepDef.navigateToTheAboutUsPage()"
 });
 formatter.result({
-  "duration": 33872202,
+  "duration": 45837300,
   "status": "passed"
 });
 formatter.match({
-  "location": "infoPage_StepDef.selectPrivacyPolicyLink()"
+  "location": "Info_News_ContactUs_StepDef.selectPrivacyPolicyLink()"
 });
 formatter.result({
-  "duration": 1079953488,
+  "duration": 1578285100,
   "status": "passed"
 });
 formatter.match({
-  "location": "infoPage_StepDef.navigateToThePrivacyPage()"
+  "location": "Info_News_ContactUs_StepDef.navigateToThePrivacyPage()"
 });
 formatter.result({
-  "duration": 30126865,
+  "duration": 39844700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 392562017,
+  "duration": 438821000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3079348700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "NewsPage",
+  "description": "",
+  "id": "infonewscontact;newspage",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 12,
+  "name": "User click on News",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "Navigate to the News Page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Info_News_ContactUs_StepDef.userClickOnNews()"
+});
+formatter.result({
+  "duration": 4186726600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Info_News_ContactUs_StepDef.navigateToNewsPage()"
+});
+formatter.result({
+  "duration": 57568000,
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded1.png");
+formatter.after({
+  "duration": 422144700,
   "status": "passed"
 });
 });

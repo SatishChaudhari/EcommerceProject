@@ -1,4 +1,4 @@
 package regression.customerPortalPOM;
 
-public class LoginRegistration extends basePage {
+public class LoginRegistration extends BasePage {
 }

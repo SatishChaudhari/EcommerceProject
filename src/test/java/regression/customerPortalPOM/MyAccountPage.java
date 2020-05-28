@@ -1,5 +1,5 @@
 package regression.customerPortalPOM;
 
-public class MyAccountPage extends basePage {
+public class MyAccountPage extends BasePage {
 
 }

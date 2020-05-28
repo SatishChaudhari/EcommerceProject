@@ -1,6 +1,6 @@
 package regression.customerPortalPOM;
 
-public class HomePage extends basePage {
+public class HomePage extends BasePage {
 
 
 }
